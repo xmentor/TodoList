@@ -232,6 +232,9 @@ body{
 }
 .footer{
     font-size: .9em;
+    @media print{
+        display: none;
+    }
 }
 @media print {
     *,
