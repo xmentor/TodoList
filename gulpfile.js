@@ -30,7 +30,7 @@ gulp.task('template', ['cssmin'], function() {
         .pipe(template({lang: 'pl',
                         title: 'TodoList',
                         desc: 'Prosta w użyciu aplikacja, umożliwiająca tworzenie listy zadań',
-                        keywords: 'todo, to do list, todolist, todo list, lista zadań',
+                        keywords: 'to do list, todolist, todo list, lista zadań, tasks list',
                         viewport: 'width=device-width',
                         css: 'css/todoList.css',
                         headline: 'Moja lista zadań',
