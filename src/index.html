@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <title><%= title %></title>
+    <meta charset="UTF-8">
+    <meta name="description" content="<%= desc %>">
+    <meta name="keywords" content="<%= keywords %>">
+    <meta name="viewport" content="<%= viewport %>">
+    <link rel="stylesheet" href="<%= css %>">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__headline"><%= headline %></h1>
+    </header>
+    <div class="todo-container todo">
+        <div class="todo__input-container">
+            <div>
+                <label for="todo-input" class="visuallyhidden">Treść zadania:</label>
+            </div>
+            <input type="text" placeholder="Moje zadanie..." id="todo-input" class="todo__input">
+        </div>
+        <div class="todo__list-container">
+            <ul class="todo__list">
+            </ul>
+        </div>
+        <div class="todo__buttons buttons">
+            <button class="buttons__button buttons__button_clear-completed">Usuń wszystkie skończone</button>
+            <button class="buttons__button buttons__button_print-tasks">Drukuj liste</button>         
+        </div>
+    </div>
+    <footer class="footer">
+        <span class="footer__copyright"><%= copyright %></span>
+    </footer>
+    <script src="<%= js %>"></script>
+</body>
+</html>
